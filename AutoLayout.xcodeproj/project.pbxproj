@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1732330027FBA51900AC63E9 /* LockScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173232FF27FBA51900AC63E9 /* LockScreenController.swift */; };
+		1734491B27FBC533006B51B9 /* UICompController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734491A27FBC533006B51B9 /* UICompController.swift */; };
+		1734491D27FBC637006B51B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734491C27FBC637006B51B9 /* TableViewController.swift */; };
 		173AD94F27F16F6300F5DAF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173AD94E27F16F6300F5DAF6 /* AppDelegate.swift */; };
 		173AD95127F16F6300F5DAF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173AD95027F16F6300F5DAF6 /* SceneDelegate.swift */; };
 		173AD95327F16F6300F5DAF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173AD95227F16F6300F5DAF6 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		173232FF27FBA51900AC63E9 /* LockScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenController.swift; sourceTree = "<group>"; };
+		1734491A27FBC533006B51B9 /* UICompController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICompController.swift; sourceTree = "<group>"; };
+		1734491C27FBC637006B51B9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		173AD94B27F16F6300F5DAF6 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		173AD94E27F16F6300F5DAF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		173AD95027F16F6300F5DAF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				173AD94E27F16F6300F5DAF6 /* AppDelegate.swift */,
 				173AD95027F16F6300F5DAF6 /* SceneDelegate.swift */,
 				173AD95227F16F6300F5DAF6 /* ViewController.swift */,
+				1734491A27FBC533006B51B9 /* UICompController.swift */,
+				173232FF27FBA51900AC63E9 /* LockScreenController.swift */,
+				1734491C27FBC637006B51B9 /* TableViewController.swift */,
 				173AD95427F16F6300F5DAF6 /* Main.storyboard */,
 				173AD95727F16F6400F5DAF6 /* Assets.xcassets */,
 				173AD95927F16F6400F5DAF6 /* LaunchScreen.storyboard */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				173AD95327F16F6300F5DAF6 /* ViewController.swift in Sources */,
+				1734491D27FBC637006B51B9 /* TableViewController.swift in Sources */,
+				1734491B27FBC533006B51B9 /* UICompController.swift in Sources */,
 				173AD94F27F16F6300F5DAF6 /* AppDelegate.swift in Sources */,
+				1732330027FBA51900AC63E9 /* LockScreenController.swift in Sources */,
 				173AD95127F16F6300F5DAF6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
