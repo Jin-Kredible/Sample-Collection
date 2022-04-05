@@ -20,48 +20,62 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cli-Me-bTG">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="118" translatesAutoresizingMaskIntoConstraints="NO" id="elw-uG-f2u">
-                                        <rect key="frame" x="50" y="0.0" width="314" height="674"/>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3c1-LA-JZJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSj-A5-lCa">
-                                                <rect key="frame" x="88.5" y="0.0" width="137.5" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7W-GQ-ZBE">
-                                                <rect key="frame" x="98.5" y="138.5" width="117" height="237.5"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="UI Component"/>
-                                                <connections>
-                                                    <action selector="openUIComp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jAM-51-us1"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUl-Tm-b2e">
-                                                <rect key="frame" x="129.5" y="494" width="55.5" height="31"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="View"/>
-                                                <connections>
-                                                    <action selector="openLockScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9pz-TT-wuX"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C97-ie-skd">
-                                                <rect key="frame" x="97" y="643" width="120" height="31"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="View with Data"/>
-                                                <connections>
-                                                    <action selector="openTableView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGV-hw-iji"/>
-                                                </connections>
-                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="118" translatesAutoresizingMaskIntoConstraints="NO" id="elw-uG-f2u">
+                                                <rect key="frame" x="20" y="0.0" width="374" height="467.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSj-A5-lCa">
+                                                        <rect key="frame" x="118.5" y="0.0" width="137.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7W-GQ-ZBE">
+                                                        <rect key="frame" x="128.5" y="138.5" width="117" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="UI Component"/>
+                                                        <connections>
+                                                            <action selector="openUIComp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jAM-51-us1"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUl-Tm-b2e">
+                                                        <rect key="frame" x="159.5" y="287.5" width="55.5" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="View"/>
+                                                        <connections>
+                                                            <action selector="openLockScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9pz-TT-wuX"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C97-ie-skd">
+                                                        <rect key="frame" x="127" y="436.5" width="120" height="31"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="View with Data"/>
+                                                        <connections>
+                                                            <action selector="openTableView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGV-hw-iji"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
-                                    </stackView>
+                                        <constraints>
+                                            <constraint firstItem="elw-uG-f2u" firstAttribute="centerX" secondItem="3c1-LA-JZJ" secondAttribute="centerX" id="Glg-dN-oLG"/>
+                                            <constraint firstItem="elw-uG-f2u" firstAttribute="top" secondItem="3c1-LA-JZJ" secondAttribute="top" id="YgJ-sd-rCb"/>
+                                            <constraint firstAttribute="bottom" secondItem="elw-uG-f2u" secondAttribute="bottom" id="byp-Qx-7Mh"/>
+                                            <constraint firstItem="elw-uG-f2u" firstAttribute="leading" secondItem="3c1-LA-JZJ" secondAttribute="leading" constant="20" id="dWU-Ve-Tlf"/>
+                                            <constraint firstItem="elw-uG-f2u" firstAttribute="trailing" secondItem="3c1-LA-JZJ" secondAttribute="trailing" constant="-256.5" id="uvx-wv-ekR"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="contentLayoutGuide" id="0qA-Yv-RPT"/>
+                                        <viewLayoutGuide key="frameLayoutGuide" id="bS3-V5-b92"/>
+                                    </scrollView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="elw-uG-f2u" secondAttribute="trailing" constant="50" id="83o-lY-e3W"/>
-                                    <constraint firstItem="elw-uG-f2u" firstAttribute="leading" secondItem="cli-Me-bTG" secondAttribute="leading" constant="50" id="PWp-ZU-hDA"/>
-                                    <constraint firstAttribute="bottom" secondItem="elw-uG-f2u" secondAttribute="bottom" constant="100" id="ipr-Xh-ijd"/>
-                                    <constraint firstItem="elw-uG-f2u" firstAttribute="top" secondItem="cli-Me-bTG" secondAttribute="top" id="kZv-zp-UwH"/>
+                                    <constraint firstAttribute="bottom" secondItem="3c1-LA-JZJ" secondAttribute="bottom" id="TLw-gU-37V"/>
+                                    <constraint firstItem="3c1-LA-JZJ" firstAttribute="top" secondItem="cli-Me-bTG" secondAttribute="top" id="hTh-cj-qxX"/>
+                                    <constraint firstAttribute="trailing" secondItem="3c1-LA-JZJ" secondAttribute="trailing" id="oxI-jQ-W8g"/>
+                                    <constraint firstItem="3c1-LA-JZJ" firstAttribute="leading" secondItem="cli-Me-bTG" secondAttribute="leading" id="tUO-ua-50d"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -294,7 +308,7 @@
         <!--Table View Controller-->
         <scene sceneID="r5c-wH-iSJ">
             <objects>
-                <tableViewController storyboardIdentifier="TableViewController" id="S9o-M1-y3W" customClass="TableViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="TableViewController" id="S9o-M1-y3W" customClass="TableViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ElB-4S-Br4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

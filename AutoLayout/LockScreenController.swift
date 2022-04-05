@@ -18,7 +18,7 @@ class LockScreenController: UIViewController, UIImagePickerControllerDelegate & 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+    
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector:#selector(self.tick) , userInfo: nil, repeats: true)
         
         
