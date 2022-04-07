@@ -10,18 +10,21 @@
 		1732330027FBA51900AC63E9 /* LockScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173232FF27FBA51900AC63E9 /* LockScreenController.swift */; };
 		1734491B27FBC533006B51B9 /* UICompController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734491A27FBC533006B51B9 /* UICompController.swift */; };
 		1734491D27FBC637006B51B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734491C27FBC637006B51B9 /* TableViewController.swift */; };
+		1734491F27FC0740006B51B9 /* CustTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1734491E27FC0740006B51B9 /* CustTableController.swift */; };
 		173AD94F27F16F6300F5DAF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173AD94E27F16F6300F5DAF6 /* AppDelegate.swift */; };
 		173AD95127F16F6300F5DAF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173AD95027F16F6300F5DAF6 /* SceneDelegate.swift */; };
 		173AD95327F16F6300F5DAF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173AD95227F16F6300F5DAF6 /* ViewController.swift */; };
 		173AD95627F16F6300F5DAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173AD95427F16F6300F5DAF6 /* Main.storyboard */; };
 		173AD95827F16F6400F5DAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 173AD95727F16F6400F5DAF6 /* Assets.xcassets */; };
 		173AD95B27F16F6400F5DAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 173AD95927F16F6400F5DAF6 /* LaunchScreen.storyboard */; };
+		1749BFC427FE9B1700F852A3 /* ViewDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1749BFC327FE9B1700F852A3 /* ViewDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		173232FF27FBA51900AC63E9 /* LockScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenController.swift; sourceTree = "<group>"; };
 		1734491A27FBC533006B51B9 /* UICompController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICompController.swift; sourceTree = "<group>"; };
 		1734491C27FBC637006B51B9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1734491E27FC0740006B51B9 /* CustTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustTableController.swift; sourceTree = "<group>"; };
 		173AD94B27F16F6300F5DAF6 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		173AD94E27F16F6300F5DAF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		173AD95027F16F6300F5DAF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		173AD95727F16F6400F5DAF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		173AD95A27F16F6400F5DAF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		173AD95C27F16F6400F5DAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1749BFC327FE9B1700F852A3 /* ViewDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +70,11 @@
 				173AD95027F16F6300F5DAF6 /* SceneDelegate.swift */,
 				173AD95227F16F6300F5DAF6 /* ViewController.swift */,
 				1734491A27FBC533006B51B9 /* UICompController.swift */,
+				1749BFC327FE9B1700F852A3 /* ViewDataController.swift */,
 				173232FF27FBA51900AC63E9 /* LockScreenController.swift */,
 				1734491C27FBC637006B51B9 /* TableViewController.swift */,
 				173AD95427F16F6300F5DAF6 /* Main.storyboard */,
+				1734491E27FC0740006B51B9 /* CustTableController.swift */,
 				173AD95727F16F6400F5DAF6 /* Assets.xcassets */,
 				173AD95927F16F6400F5DAF6 /* LaunchScreen.storyboard */,
 				173AD95C27F16F6400F5DAF6 /* Info.plist */,
@@ -151,8 +157,10 @@
 				1734491D27FBC637006B51B9 /* TableViewController.swift in Sources */,
 				1734491B27FBC533006B51B9 /* UICompController.swift in Sources */,
 				173AD94F27F16F6300F5DAF6 /* AppDelegate.swift in Sources */,
+				1749BFC427FE9B1700F852A3 /* ViewDataController.swift in Sources */,
 				1732330027FBA51900AC63E9 /* LockScreenController.swift in Sources */,
 				173AD95127F16F6300F5DAF6 /* SceneDelegate.swift in Sources */,
+				1734491F27FC0740006B51B9 /* CustTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

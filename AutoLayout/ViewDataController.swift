@@ -1,19 +1,18 @@
 //
-//  ViewController.swift
+//  ViewDataController.swift
 //  AutoLayout
 //
-//  Created by HAE on 2022/03/28.
+//  Created by HAE on 2022/04/07.
 //
 
 import UIKit
 
-class SampleController: UIViewController {
-
+class ViewDataController : UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
     func openView(viewname: String) {
         NSLog("Comp View")
         let storyBoard : UIStoryboard = UIStoryboard(name : "Main", bundle:nil)
@@ -21,27 +20,17 @@ class SampleController: UIViewController {
         
         self.navigationController?.pushViewController(controller, animated: true)
     }
-
-    @IBAction func openLockScreen(_ sender: Any) {
+    
+    @IBAction func openCustomTable(_ sender: Any) {
         
-        openView(viewname: "LockScreenController")
-        
+        openView(viewname: "CustTableController")
     }
     
-    @IBAction func openUIComp(_ sender: Any) {
+    @IBAction func openBasicTable(_ sender: Any) {
         
-        NSLog("Comp View")
-        
-        openView(viewname: "UICompController")
+        openView(viewname: "TableViewController")
     }
     
     
-    @IBAction func openTableView(_ sender: Any) {
-        
-        NSLog("Table View")
-        
-        openView(viewname: "ViewDataController")
-        
-    }
+    
 }
-
